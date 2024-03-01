@@ -39,4 +39,9 @@
     max-width: 800px; /* Adjust as needed */
     margin: auto; /* Center in the viewport */
   }
+  .custom-navbar-bg {
+    background-image: url('./pictures/project1.png');
+    background-size: cover;
+    background-position: center;
+  }
   
