@@ -1,0 +1,42 @@
+/* Additional styles for the slide-in effect */
+/* Adjusted to control visibility with JavaScript */
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 300ms ease-in-out;
+    width: 250px;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid red;
+    border-right: none;
+    text-align: center;
+  }
+  
+  /* The label styling for the '+' symbol */
+  #menuToggle:checked + #menu {
+    transform: translateX(0);
+  }
+  /* Additional styles for the slide-in effect */
+    #menuToggle:checked + #menu {
+    display: flex; /* Show the menu */
+  }
+  
+  #menuToggle:not(:checked) + #menu {
+    display: none; /* Hide the menu */
+  }
+  
+  /* Additional styles for the menu section */
+  #menu .menu-section {
+    transform: translateY(0); /* Adjust to slide in from the desired direction */
+    transition: transform 300ms ease-in-out;
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid red; /* As seen in the figure */
+    border-right: none;
+    text-align: left;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto; /* Center in the viewport */
+  }
+  
