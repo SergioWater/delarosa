@@ -1,321 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rockstar Garage Door Services</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-<link rel="stylesheet" href="styles.css">
-
-
-</head>
-<body class="bg-gray-900 text-white">
-
-<!-- Top Bar -->
-<div class="flex justify-between items-center bg-black py-2 px-4">
-    <div class="flex max-w-6xl mx-auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De La Rosa's Garage Door Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-black">
+    
+    <!-- Top Bar -->
+    <div class="flex justify-between items-center bg-black py-2 px-4">
+      <div class="flex max-w-6xl mx-auto">
         <div class="flex items-center">
-          <i class="fas fa-phone-alt text-red-600"></i>
-          <span class="ml-2">Call For An Estimate. Dial NOW (408) 219-3883</span>
+          <i class="fas fa-phone-alt text-red-600 px-2"></i>
+          <span class="ml-2 font-bold text-white"
+            >Call For An Estimate. Dial NOW
+            <span class="px-2 text-red-600">(408) 219-3883 </span></span
+          >
         </div>
-        
-        <div class="flex items-center ml-10"> <!-- Added ml-4 for spacing, adjust as needed -->
+
+        <div class="flex items-center ml-10">
+          <!-- Added ml-4 for spacing, adjust as needed -->
           <!-- <i class="fas fa-certificate text-yellow-400"></i> -->
           <span class="ml-2"></span>
         </div>
+      </div>
     </div>
-</div>
 
-
-<!-- Navigation -->
-<div style="background-color: #fafaf5;">
-    <nav class="flex justify-between items-center py-4 px-8 mx-auto" style="max-width: 50%;">
-        <a href="#" class="text-xl font-bold"><img src="" alt="Your Logo"></a>
-        <div class="flex gap-16 text-black font-bold">
-          <a href="#" class="hover:text-red-600">HOME</a>
-          <a href="#" class="hover:text-red-600">SERVICES</a>
-          <a href="#" class="hover:text-red-600">ABOUT US</a>
-          <a href="#" class="hover:text-red-600">CONTACT</a>
-        </div>
-        <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-          GET A QUOTE
-        </button>
-    </nav>
-  </div>
-  
-
-
-  
-
-<!-- Hero Section -->
-<div class="flex flex-col items-center justify-center text-center space-y-4 py-24">
-  <h1 class="text-6xl font-bold">SECURITY AND STYLE</h1>
-  <p class="text-2xl">WITH SAN DIEGO'S ROCKSTAR GARAGE DOOR SERVICES</p>
-  <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">
-    <i class="fas fa-calendar-alt"></i> (408) 219-388
-    <span class="ml-2">Book An Appointment Today!</span>
-  </button>
-</div>
-
-<!-- Request Form -->
-<div class="flex justify-center py-10">
-  <div class="bg-white text-gray-800 rounded-lg p-8">
-    <h2 class="text-2xl font-bold mb-4">Request A Service</h2>
-    <form action="#" method="POST">
-      <div class="mb-4">
-        <input type="text" placeholder="Full Name" class="w-full p-2 border border-gray-300 rounded" required>
-      </div>
-      <div class="mb-4">
-        <input type="email" placeholder="Your Email" class="w-full p-2 border border-gray-300 rounded" required>
-      </div>
-      <div class="mb-4">
-        <input type="tel" placeholder="Phone" class="w-full p-2 border border-gray-300 rounded" required>
-      </div>
-      <div class="flex justify-between items-center">
-        <button type="submit" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-          SEND
-        </button>
-        <a href="#" class="text-red-600 hover:underline">SEE OUR AREAS OF SERVICE</a>
-      </div>
-    </form>
-  </div>
-</div>
-<!-- Expert Services Section -->
-<div class="bg-white text-gray-800 py-10 px-6">
-    <div class="max-w-6xl mx-auto">
-      <div class="flex flex-wrap">
-        <div class="w-full lg:w-1/2 px-4 mb-6 lg:mb-0">
-          <h2 class="text-3xl font-bold mb-3">Expert San Diego Garage Door Services</h2>
-          <p class="mb-4">With over 15 years in the industry, Rockstar Garage Door Services is San Diego’s trusted choice for efficient garage door repairs and maintenance. As a local company, we've served hundreds in the region, priding ourselves on our skilled team and honest estimates.</p>
-          <p class="mb-4">Whether your job is big or small, we’re equipped and ready to meet your needs.</p>
-          <a href="#" class="text-red-600 font-bold hover:underline">ABOUT US</a>
-        </div>
-        <div class="w-full lg:w-1/2 px-4">
-          <div class="relative">
-            <img src="https://placehold.co/600x400" alt="Historic heart of San Diego image, depicting a bustling street scene with a historic archway." class="rounded-lg mb-3">
-            <div class="absolute top-0 right-0 bg-red-600 text-white px-4 py-1 rounded-bl-lg">15+ Years of Experience</div>
+    <!-- Navigation -->
+    <div style="background-color: #fafaf5; position: -webkit-sticky; position: sticky; top: 0; z-index: 1000;">
+        <nav class="flex justify-between items-center py-4 px-8 mx-auto" style="max-width: 50%">
+          <a href="#" class="text-xl font-bold">
+            <img src="./pictures/logo.png" alt="Your Logo" class="h-10" />
+          </a>
+          <div class="flex gap-16 text-black font-bold">
+            <a href="#" class="hover:text-red-600">HOME</a>
+            <a href="#" class="hover:text-red-600">SERVICES</a>
+            <a href="#" class="hover:text-red-600">ABOUT US</a>
+            <a href="#" class="hover:text-red-600">CONTACT</a>
           </div>
-        </div>
+          <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+            GET A QUOTE
+          </button>
+        </nav>
       </div>
+      
+      
+
+    <!-- Hero Section -->
+    <div
+    style="
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.15),
+          rgba(0, 0, 0, 0)
+        ),
+        url('./pictures/project2.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 900px; /* Set the height of the section */
+      display: flex;
+      color: #fafaf5;
+      align-items: center; 
+      
+    "
+  >
+    <div
+      class="w-3/5 mx-auto text-left space-y-4" 
+    >
+      <h1 class="text-6xl font-bold">SECURITY AND STYLE</h1>
+      <p class="text-2xl">WITH THE DE LA ROSA'S GARAGE DOOR SERVICES</p>
+      <button
+        class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4 flex items-center"
+      >
+        <i class="fas fa-phone"></i>
+        <span class="ml-2">Book An Appointment Today!</span>
+      </button>
     </div>
   </div>
   
-  <!-- Garage Door Services Section -->
-  <div class="bg-gray-100 py-10 px-6">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-bold mb-6 text-center">Garage Door Services</h2>
-      <p class="text-center mb-10">Rockstar Garage Door Services specializes in a long list of services including, but not limited to:</p>
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-6">
-          <div class="flex items-center">
-            <i class="fas fa-tools text-red-600 text-3xl"></i>
-            <h3 class="text-xl font-bold ml-3">Repair And Maintenance</h3>
-          </div>
-        </div>
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-6">
-          <div class="flex items-center">
-            <i class="fas fa-cogs text-red-600 text-3xl"></i>
-            <h3 class="text-xl font-bold ml-3">Spring Replacement</h3>
-          </div>
-        </div>
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-6">
-          <div class="flex items-center">
-            <i class="fas fa-door-open text-red-600 text-3xl"></i>
-            <h3 class="text-xl font-bold ml-3">Garage Openers</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Additional Services Section -->
-<div class="bg-gray-100 py-10 px-6">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-bold text-center mb-6">Garage Door Services</h2>
-      <p class="text-center mb-10">Rockstar Garage Door Services specializes in a long list of services including, but not limited to:</p>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Service Item -->
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <div class="flex items-center mb-4">
-            <i class="fas fa-tools text-red-600 text-3xl"></i>
-            <h3 class="text-xl font-bold ml-3">Repair And Maintenance</h3>
-          </div>
-          <img src="https://placehold.co/600x400" alt="Placeholder image for Repair and Maintenance service." class="mb-4 rounded-lg">
-          <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">LEARN MORE</button>
-        </div>
-        
-        <!-- Repeat this block for each service, replacing the icon class, service title, image, and alt text accordingly -->
-        
-        <!-- Service Item -->
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <div class="flex items-center mb-4">
-            <i class="fas fa-cogs text-red-600 text-3xl"></i>
-            <h3 class="text-xl font-bold ml-3">Spring Replacement</h3>
-          </div>
-          <img src="https://placehold.co/600x400" alt="Placeholder image for Spring Replacement service." class="mb-4 rounded-lg">
-          <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">LEARN MORE</button>
-        </div>
-        
-        <!-- Service Item -->
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <div class="flex items-center mb-4">
-            <i class="fas fa-door-open text-red-600 text-3xl"></i>
-            <h3 class="text-xl font-bold ml-3">Garage Openers</h3>
-          </div>
-          <img src="https://placehold.co/600x400" alt="Placeholder image for Garage Openers service." class="mb-4 rounded-lg">
-          <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">LEARN MORE</button>
-        </div>
   
-        <!-- ... additional service items would continue here ... -->
-      </div>
-    </div>
-  </div>
-<!-- Call to Action Section -->
-<div class="bg-white py-10 px-6">
-  <div class="max-w-6xl mx-auto text-center">
-    <p class="text-gray-800 mb-2">In Need Of Garage Door Tune Up? We’re Ready To Start!</p>
-    <h2 class="text-3xl font-bold text-red-600 mb-4">
-      Call Us Today (408) 219-388 or <span class="text-black">Request a FREE Quote</span>
-    </h2>
-  </div>
-</div>
-  <!-- New Garage Door Installation Section -->
-<div class="bg-white py-10 px-6">
-    <div class="max-w-7xl mx-auto flex flex-wrap items-center">
-      <div class="lg:w-1/2 w-full">
-        <img src="https://placehold.co/600x300" alt="Placeholder image for new garage door installation showing a modern home's garage." class="rounded-lg shadow-lg mb-6 lg:mb-0">
-      </div>
-      <div class="lg:w-1/2 w-full lg:pl-10">
-        <h2 class="text-2xl text-red-600 font-bold uppercase mb-4">Need a new garage door?</h2>
-        <h3 class="text-3xl font-bold mb-4">New Garage Door Installation Services In San Diego</h3>
-        <p class="mb-6">Choose the best with our New Garage Door Installation services. Seamlessly blending aesthetics and functionality, our team delivers precision and quality. Transform your property's facade with a lasting and visually appealing addition. Trust in our expertise for a hassle-free experience.</p>
-        <a href="#" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">LEARN MORE</a>
-      </div>
-    </div>
-  </div>
-
-  
-  <!-- Statistics Section -->
-<div class="bg-white py-10 px-6">
-    <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-4xl font-bold text-red-600 mb-4">Voted BEST Garage Door Company In San Diego</h2>
-      <div class="flex justify-center space-x-10">
-        <div>
-          <span class="text-6xl font-bold text-gray-800">2,457+</span>
-          <p class="text-gray-600 mt-2">Happy Customers</p>
-        </div>
-        <div>
-          <span class="text-6xl font-bold text-gray-800">847+</span>
-          <p class="text-gray-600 mt-2">New Garage Doors</p>
-        </div>
-        <div>
-          <span class="text-6xl font-bold text-gray-800">1,733+</span>
-          <p class="text-gray-600 mt-2">5⭐ Reviews</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Areas We Service Section -->
-  <div class="bg-gray-100 py-10 px-6">
-    <div class="max-w-6xl mx-auto">
-      <h3 class="text-3xl font-bold text-center mb-6">Areas We Service</h3>
-      <div class="flex flex-wrap justify-center mb-6">
-        <div class="w-full md:w-1/2 lg:w-1/4 px-4 text-center mb-4">
-          <h4 class="font-bold">North County</h4>
-          <p>Carlsbad</p>
-          <p>Encinitas</p>
-          <p>Del Mar</p>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4 px-4 text-center mb-4">
-          <h4 class="font-bold">San Diego</h4>
-          <p>La Jolla</p>
-          <p>Point Loma</p>
-          <p>North Park</p>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4 px-4 text-center mb-4">
-          <h4 class="font-bold">East County</h4>
-          <p>La Mesa</p>
-          <p>El Cajon</p>
-          <p>Santee</p>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/4 px-4 text-center mb-4">
-          <h4 class="font-bold">South County</h4>
-          <p>Coronado</p>
-          <p>Chula Vista</p>
-          <p>Imperial Beach</p>
-        </div>
-      </div>
-      <div class="text-center">
-        <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">SEE ALL AREAS OF SERVICE</button>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Embedded Google Map -->
-  <div class="py-10">
-    <div class="max-w-6xl mx-auto">
-      <!-- Replace src with the actual Google Maps embed link -->
-      <iframe
-        width="100%"
-        height="400"
-        frameborder="0"
-        style="border:0"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.1580846096437!2d-117.16108768482128!3d32.71573898102727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954ab5b805b71%3A0x305f0c375b19a4a2!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1643205829403!5m2!1sen!2sus"
-        allowfullscreen
-      ></iframe>
-    </div>
-  </div>
-  <!-- Areas We Service Section -->
-
-    <!-- Menu Toggle -->
-    <div class="bg-white py-10 px-6">
-        <input type="checkbox" class="menuToggle hidden" data-menu="menu1"/>
-        <label for="menuToggle1" class="cursor-pointer text-red-600 text-4xl">Yooooooooooooooooooooooooooooooooooooooo+</label>
-      </div>
     
-    <!-- Slide-in Menu -->
-    <div class="menu " data-menu="menuToggle1">
-      <!-- Replace these divs with actual content -->
-      <div class="my-4">WHY CHOOSE ROCKSTAR</div>
-      <div class="my-4">SATISFACTION GUARANTEE</div>
-      <div class="my-4">SAN DIEGO GARAGE DOOR REPAIRS</div>
-    </div>
-    <div class="menu hidden fixed inset-0 flex justify-center items-center bg-black bg-opacity-50" data-menu="menu2">
-        <div class="bg-white p-8 rounded shadow-lg text-left max-w-2xl w-full mx-4">
-          <h2 class="text-xl font-bold text-red-600 mb-2">Expert Garage Door Solutions with Rockstar</h2>
-          <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p class="mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p class="mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <!-- More lorem content here -->
-          <div class="mt-4 flex justify-between">
-            <div class="flex items-center">
-              <div class="border-t border-dotted border-red-600 flex-grow mr-3" aria-hidden="true"></div>
-              <button class="py-2 px-4 bg-red-600 text-white rounded">SATISFACTION GUARANTEE</button>
-            </div>
-            <div class="flex items-center">
-              <button class="py-2 px-4 bg-red-600 text-white rounded">SAN DIEGO GARAGE DOOR REPAIRS</button>
-              <div class="border-t border-dotted border-red-600 flex-grow ml-3" aria-hidden="true"></div>
-            </div>
+    
+    <!-- Request Form -->
+    <!-- Parent container with fixed height and relative positioning -->
+    <div class="relative text-center py-24">
+        <!-- Set the height as needed -->
+  
+        <!-- White container with shadow centered horizontally and vertically -->
+        <div
+          class="absolute top-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white shadow-lg rounded p-6"
+          style="width: 40%"
+        >
+          <!-- Adjust width as needed -->
+  
+          <!-- Request A Service heading -->
+          <h2 class="text-2xl text-left text-black font-bold mb-4">Request A Service</h2>
+        
+          <!-- Form fields in a row -->
+          <div class="flex  justify-center gap-6 mb-4">
+            <input
+              type="text"
+              placeholder="Full Name"
+              class="p-2 border border-gray-300 rounded"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="p-2 border border-gray-300 rounded"
+              required
+            />
+            <input
+              type="tel"
+              placeholder="Phone"
+              class="p-2 border border-gray-300 rounded"
+              required
+            />
+            <button
+              type="submit"
+              class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+            >
+              SEND
+            </button>
           </div>
+  
+          <!-- Link for areas of service -->
+          <a href="#" class="text-red-600 hover:underline"
+            >SEE OUR AREAS OF SERVICE</a
+          >
         </div>
       </div>
-    <!-- final callback-->
-      <div class="relative bg-cover bg-no-repeat bg-center" style="background-image: url('path_to_your_background_image.jpg');">
-        <div class="container mx-auto px-4 py-16">
-          <div class="flex justify-between items-center">
-            <div class="text-white">
-              <h2 class="text-4xl font-bold">Ready For A <span class="text-red-600">CHANGE</span></h2>
-              <p class="mt-4 text-xl">Get Your Quote Now!</p>
-              <a href="#" class="mt-6 inline-block bg-red-600 text-white py-3 px-6 uppercase text-sm font-bold rounded">Get Started</a>
+
+    <!-- Expert Services Section -->
+    <div class="bg-white text-gray-800 py-10 px-6">
+        <div class="mx-auto" style="max-width: 45%;">
+          <div class="flex flex-wrap justify-start items-center">
+            <div class="w-full lg:w-1/2 px-4 mb-6 lg:mb-0">
+                <p class="text-sm">Who is De La Rosa Garage Doors?</p class="text-sm mb-4">
+                <h2 class="text-3xl font-bold mb-3">
+                Expert The Bay's Garage Door Services
+              </h2>
+              <p class="text-sm mb-4">
+                With over 8 years in the industry, De La Rosa's Garage Door Services
+                is The Bay's trusted choice for efficient garage door repairs
+                and maintenance. As a local company, we've served hundreds in the
+                region, priding ourselves on our skilled team and honest
+                estimates.
+              </p>
+              <p class="text-sm mb-4">
+                Whether your job is big or small, we’re equipped and ready to meet
+                your needs.
+              </p>
+              <a href="#" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                ABOUT US
+              </a>
             </div>
-            <div class="text-white bg-red-600 p-6 rounded">
-              <p class="font-bold text-sm">San Diego Garage Door Repair,<br>Installation, & Replacement Services</p>
-              <div class="mt-4 flex items-center">
-                <span class="inline-block bg-white text-red-600 p-2 rounded mr-4">
-                  <i class="fas fa-phone-alt"></i>
-                </span>
-                <span class="text-2xl font-bold">(408) 219-388</span>
+            <div class="w-full lg:w-1/2 px-4">
+              <div class="relative">
+                <img
+                  src="./pictures/project1.png"
+                  alt="Historic heart of The Bay's image, depicting a bustling street scene with a historic archway."
+                  class="rounded-lg mb-3"
+                />
+                <div
+                  class="absolute top-0 right-0 bg-red-600 text-white px-4 py-1 rounded-bl-lg text-lg"
+                >
+                  8+ Years of Experience
+                </div>
               </div>
             </div>
           </div>
@@ -325,54 +182,294 @@
 
 
 
+    <!-- Additional Services Section -->
+    <div class="bg-white py-10 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-6">
+          Garage Door Services
+        </h2>
+        <p class="text-center mb-10">
+          De La Rosa's Garage Door Services specializes in a long list of services
+          including, but not limited to:
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Service Item -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-tools text-red-600 text-3xl"></i>
+              <h3 class="text-xl font-bold ml-3">Repair And Maintenance</h3>
+            </div>
+            <img
+              src="./pictures/project6.jpg"
+              alt="Placeholder image for Repair and Maintenance service."
+              class="w-full h-80 object-cover mb-4 rounded-lg" 
+              style="max-width: 600px; max-height: 400px;"
+            />
+            <button
+              class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+            >
+              LEARN MORE
+            </button>
+          </div>
 
-<!-- Footer -->
-<footer class="bg-black text-white">
-    <div class="max-w-6xl mx-auto px-4 py-8 grid grid-cols-2 md:grid-cols-4 gap-8">
-      <div>
-        <h2 class="text-xl font-bold mb-4">ROCKSTAR GARAGE DOOR SERVICES</h2>
-        <img src="path_to_first_image.jpg" alt="BBB Accredited Business" class="mb-4">
-        <img src="path_to_second_image.jpg" alt="Rating Stars">
-      </div>
-      <div>
-        <h3 class="font-semibold mb-3">Support</h3>
-        <ul>
-          <li><a href="#" class="hover:text-red-600">Home</a></li>
-          <li><a href="#" class="hover:text-red-600">Services</a></li>
-          <li><a href="#" class="hover:text-red-600">Areas We Serve</a></li>
-          <li><a href="#" class="hover:text-red-600">Blog</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="font-semibold mb-3">Company</h3>
-        <ul>
-          <li><a href="#" class="hover:text-red-600">About us</a></li>
-          <li><a href="#" class="hover:text-red-600">Careers</a></li>
-          <li><a href="#" class="hover:text-red-600">Contact Us</a></li>
-          <li><a href="#" class="hover:text-red-600">FAQs</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="font-semibold mb-3">Contact Us</h3>
-        <ul>
-          <li>4455 Murphy Canyon Rd Suite 100, San Diego, CA 92123</li>
-          <li>Phone: (619) 930-9854</li>
-          <li>Fax: (619) 930-9855</li>
-          <li>Email: Please use the contact page</li>
-        </ul>
+          <!-- Repeat this block for each service, replacing the icon class, service title, image, and alt text accordingly -->
+
+          <!-- Service Item -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-tools text-red-600 text-3xl"></i>
+              <h3 class="text-xl font-bold ml-3">Spring Replacement</h3>
+            </div>
+            <img
+              src="./pictures/project3.jpg"
+              alt="Placeholder image for Repair and Maintenance service."
+              class="w-full h-80 object-cover mb-4 rounded-lg" 
+              style="max-width: 600px; max-height: 400px;"
+            />
+            <button
+              class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+            >
+              LEARN MORE
+            </button>
+          </div>
+
+          <!-- Service Item -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-tools text-red-600 text-3xl"></i>
+              <h3 class="text-xl font-bold ml-3">Garage Openers</h3>
+            </div>
+            <img
+              src="./pictures/project4.jpg"
+              alt="Placeholder image for Spring Replacement service."
+              class="w-full h-80 object-cover mb-4 rounded-lg" 
+              style="max-width: 600px; max-height: 400px;"
+            />
+            <button
+              class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+            >
+              LEARN MORE
+            </button>
+          </div>
+
+          <!-- ... additional service items would continue here ... -->
+        </div>
       </div>
     </div>
-    <div class="border-t border-gray-700 text-center py-4">
-      <p>Copyright © 2023. Rockstar Garage Door Services All Rights Reserved. Web Design and SEO By Madd X Media</p>
-      <p>
-        <a href="#" class="hover:text-red-600">Terms of use</a> | 
-        <a href="#" class="hover:text-red-600">Privacy policy</a> | 
-        <a href="#" class="hover:text-red-600">Cookie policy</a>
-      </p>
+    <!-- Call to Action Section -->
+    <div class="bg-white py-10 px-6">
+      <div class="max-w-6xl mx-auto text-center">
+        <p class="text-gray-800 mb-2">
+          In Need Of Garage Door Tune Up? We’re Ready To Start!
+        </p>
+        <h2 class="text-3xl font-bold text-red-600 mb-4">
+          Call Us Today (408) 219-388 or
+          <span class="text-black">Request a FREE Quote</span>
+        </h2>
+      </div>
     </div>
-  </footer>
-  
+    <!-- New Garage Door Installation Section -->
+    <div class="bg-white py-10 px-6">
+      <div class="max-w-7xl mx-auto flex flex-wrap items-center">
+        <div class="lg:w-1/2 w-full">
+          <img
+            src="./pictures/project7.jpg"
+            alt="Placeholder image for new garage door installation showing a modern home's garage."
+            class="rounded-lg shadow-lg mb-6 lg:mb-0"
+            style="max-width: 800px; max-height: 600px;"
+          />
+        </div>
+        <div class="lg:w-1/2 w-full lg:pl-10">
+          <h2 class="text-2xl text-red-600 font-bold uppercase mb-4">
+            Need a new garage door?
+          </h2>
+          <h3 class="text-3xl font-bold mb-4">
+            New Garage Door Installation Services In The Bay's
+          </h3>
+          <p class="mb-6">
+            Choose the best with our New Garage Door Installation services.
+            Seamlessly blending aesthetics and functionality, our team delivers
+            precision and quality. Transform your property's facade with a
+            lasting and visually appealing addition. Trust in our expertise for
+            a hassle-free experience.
+          </p>
+          <a
+            href="#"
+            class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+            >LEARN MORE</a
+          >
+        </div>
+      </div>
+    </div>
 
-<script src="script.js"></script>
-</body>
+    <!-- Statistics Section -->
+    <div class=" py-10">
+        <div class="max-w-6xl mx-auto">
+          <!-- Recognition Statement -->
+          <div class="text-center py-6">
+            <h2 class="text-4xl font-bold text-red-600 mb-4">
+              Recognized as the Premier Up-and-Coming Garage Door Company in the Bay Area<hr class="border-t-2 border-red-600 w-1/4 mx-auto mb-6">
+            </h2>
+             <!-- Decorative line -->
+          </div>
+      
+          <div class="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center bg-white shadow-lg gap-10 py-10" style="max-width: 100%;">
+            <!-- Areas We Service -->
+            <div class="text-center" style="flex: 0 0 460%; max-width: 60%; border-right: 2px solid black; padding-right: 20px;">
+              <h3 class="text-3xl font-bold mb-6">Areas We Service in The Bay</h3>
+              <div class="flex justify-center flex-wrap gap-6 mb-6">
+                <div class="text-center">
+                  <h4 class="font-bold">San Francisco</h4>
+                </div>
+                <div class="text-center">
+                  <h4 class="font-bold">Oakland</h4>
+                </div>
+                <div class="text-center">
+                  <h4 class="font-bold">San Jose</h4>
+                </div>
+                <!-- More cities as needed -->
+              </div>
+              <div class="text-center">
+                <button class="text-red-600 font-bold py-2 px-4 rounded border-2 border-red-600 border-dotted flex items-center justify-center mx-auto hover:bg-red-100">
+                  <i class="fas fa-map-pin mr-2"></i> SEE ALL AREAS OF SERVICE
+                </button>
+              </div>
+            </div>
+          
+            <!-- Embedded Google Map -->
+            <div class="flex-grow" style="flex: 0 0 70%; max-width: 70%;">
+              <iframe
+                width="50%"
+                height="250"
+                frameborder="0"
+                style="border: 0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.1251406437117!2d-121.88632868469099!3d37.33820857983951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fccb6d66d3d81%3A0xf3d9e2f6f53178f!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1643205829403!5m2!1sen!2sus"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          
+          
+          
+        </div>
+      </div>
+      
+      
+    <!-- Areas We Service Section -->
+
+    <!-- Menu Toggle -->
+    
+        <!-- More lorem content here -->
+        <div class="mt-4 flex justify-between">
+          <div class="flex items-center">
+            <div
+              class="border-t border-dotted border-red-600 flex-grow mr-3"
+              aria-hidden="true"
+            ></div>
+            <button class="py-2 px-4 bg-red-600 text-white rounded">
+              SATISFACTION GUARANTEE
+            </button>
+          </div>
+          <div class="flex items-center">
+            <button class="py-2 px-4 bg-red-600 text-white rounded">
+              The Bay's GARAGE DOOR REPAIRS
+            </button>
+            <div
+              class="border-t border-dotted border-red-600 flex-grow ml-3"
+              aria-hidden="true"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- final callback-->
+    <div
+      class="relative bg-cover bg-no-repeat bg-center"
+      style="background-image: url('./pictures/project1.png')"
+    >
+      <div class="container mx-auto px-4 py-16">
+        <div class="flex justify-between items-center">
+          <div class="text-white">
+            <h2 class="text-4xl font-bold">
+              Ready For A <span class="text-red-600">CHANGE</span>
+            </h2>
+            <p class="mt-4 text-xl">Get Your Quote Now!</p>
+            <a
+              href="#"
+              class="mt-6 inline-block bg-red-600 text-white py-3 px-6 uppercase text-sm font-bold rounded"
+              >Get Started</a
+            >
+          </div>
+          <div class="text-white bg-red-600 p-6 rounded">
+            <p class="font-bold text-sm">
+              The Bay's Garage Door Repair,<br />Installation, & Replacement
+              Services
+            </p>
+            <div class="mt-4 flex items-center">
+              <span class="inline-block bg-white text-red-600 p-2 rounded mr-4">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <span class="text-2xl font-bold">(408) 219-388</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white">
+      <div
+        class="max-w-6xl mx-auto px-4 py-8 grid grid-cols-2 md:grid-cols-4 gap-8"
+      >
+        <div>
+          <h2 class="text-xl font-bold mb-4">De La Rosa's GARAGE DOOR SERVICES</h2>
+          <img
+            src="path_to_first_image.jpg"
+            alt="BBB Accredited Business"
+            class="mb-4"
+          />
+          <img src="path_to_second_image.jpg" alt="Rating Stars" />
+        </div>
+        <div>
+          <h3 class="font-semibold mb-3">Support</h3>
+          <ul>
+            <li><a href="#" class="hover:text-red-600">Home</a></li>
+            <li><a href="#" class="hover:text-red-600">Services</a></li>
+            <li><a href="#" class="hover:text-red-600">Areas We Serve</a></li>
+            <li><a href="#" class="hover:text-red-600">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-3">Company</h3>
+          <ul>
+            <li><a href="#" class="hover:text-red-600">About us</a></li>
+            <li><a href="#" class="hover:text-red-600">Careers</a></li>
+            <li><a href="#" class="hover:text-red-600">Contact Us</a></li>
+            <li><a href="#" class="hover:text-red-600">FAQs</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-3">Contact Us</h3>
+          <ul>
+            <li>Address</li>
+            <li>Phone: (408) 219-388</li>
+            <li>Email: Please use the contact page</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 text-center py-4">
+        <p>
+          Copyright © 2023. De La Rosa's Garage Door Services All Rights Reserved.
+          Web Design and SEO By WaterPages
+        </p>
+        <p>
+          <a href="#" class="hover:text-red-600">Terms of use</a> |
+          <a href="#" class="hover:text-red-600">Privacy policy</a> |
+          <a href="#" class="hover:text-red-600">Cookie policy</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

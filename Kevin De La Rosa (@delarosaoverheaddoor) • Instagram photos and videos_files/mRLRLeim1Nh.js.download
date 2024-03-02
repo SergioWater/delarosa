@@ -1,4 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("IGXBarcelonaProfileControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/{vanity}/{?tab}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
-__d("InstagramProfileLinkBuilder",["IGXBarcelonaProfileControllerRouteBuilder","XPolarisProfileControllerRouteBuilder","nullthrows"],(function(a,b,c,d,e,f,g){"use strict";var h="https",i="www.threads.net",j="www.instagram.com";function a(a){a=(a=c("IGXBarcelonaProfileControllerRouteBuilder").buildUri({vanity:"@"+a}).setDomain(i))==null?void 0:(a=a.setProtocol(h))==null?void 0:a.stripTrailingSlash();return c("nullthrows")(a,"Failed to build absolute profile URL").toString()}function b(a){a=(a=c("XPolarisProfileControllerRouteBuilder").buildUri({username:a}).setDomain(j))==null?void 0:a.setProtocol(h);return c("nullthrows")(a,"Failed to build instagram absolute profile URL").toString()}g.buildThreadsProfileAbsoluteURL=a;g.buildInstagramProfileAbsoluteURL=b}),98);
