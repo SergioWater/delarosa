@@ -383,38 +383,58 @@
       </div>
     </div>
     <!-- final callback-->
-    <div
-      class="relative bg-cover bg-no-repeat bg-center"
-      style="background-image: url('./pictures/project1.png')"
-    >
-      <div class="container mx-auto px-4 py-16">
-        <div class="flex justify-between items-center">
-          <div class="text-white">
-            <h2 class="text-4xl font-bold">
-              Ready For A <span class="text-red-600">CHANGE</span>
-            </h2>
-            <p class="mt-4 text-xl">Get Your Quote Now!</p>
-            <a
-              href="#"
-              class="mt-6 inline-block bg-red-600 text-white py-3 px-6 uppercase text-sm font-bold rounded"
-              >Get Started</a
-            >
-          </div>
-          <div class="text-white bg-red-600 p-6 rounded">
-            <p class="font-bold text-sm">
-              The Bay's Garage Door Repair,<br />Installation, & Replacement
-              Services
-            </p>
-            <div class="mt-4 flex items-center">
-              <span class="inline-block bg-white text-red-600 p-2 rounded mr-4">
-                <i class="fas fa-phone-alt"></i>
-              </span>
-              <span class="text-2xl font-bold">(408) 219-388</span>
+    <style>
+        .custom-bg {
+          background-image: url('./pictures/project6 copy.jpg');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed; /* Make background scroll dynamically */
+          height: 500px; /* Set height */
+          filter: brightness(50%); /* Darken the photo */
+        }
+      
+        .phone-number-section {
+          background-color: #a50000; /* Darker red */
+          color: white;
+          padding: 20px 0;
+          border-bottom: 5px solid #d10000; /* Lighter red */
+        }
+      </style>
+      
+      <div class="relative custom-bg">
+        <div class="container mx-auto px-4 py-16">
+          <div class="flex justify-between items-center">
+            <div class="text-white">
+              <h2 class="text-4xl font-bold">
+                Ready For A <span class="text-red-600">CHANGE</span>
+              </h2>
+              <p class="mt-4 text-xl">Get Your Quote Now!</p>
+              <a
+                href="#"
+                class="mt-6 inline-block bg-red-600 text-white py-3 px-6 uppercase text-sm font-bold rounded"
+                >Get Started</a
+              >
             </div>
           </div>
         </div>
       </div>
-    </div>
+      
+      <div class="phone-number-section text-center">
+        <div class="container mx-auto px-4 flex justify-between items-center" style="max-width: 50%;">
+          <div>
+            <p class="font-bold text-lg">
+              The Bay's Garage Door Repair, Installation, & Replacement Services
+            </p>
+          </div>
+          <div class="flex items-center">
+            <span class="inline-block bg-white text-red-600 p-2 rounded mr-4">
+              <i class="fas fa-phone-alt"></i>
+            </span>
+            <span class="text-2xl font-bold">(408) 219-388</span>
+          </div>
+        </div>
+      </div>
+      
 
     <!-- Footer -->
     <footer class="bg-black text-white">
